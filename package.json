@@ -1,0 +1,10 @@
+{
+  "name": "threetwo-frontend-types",
+  "version": "1.0.0",
+  "description": "Typings for the ThreeTwo! frontend",
+  "main": "index.js",
+  "author": "Rishi Ghan",
+  "license": "MIT",
+  "private": false,
+  "types": "index.d.ts"
+}
