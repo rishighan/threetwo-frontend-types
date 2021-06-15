@@ -10,6 +10,7 @@
     "typeRoots": ["../"],
     "types": [],
     "noEmit": true,
+    "declaration": true,
     "forceConsistentCasingInFileNames": true
   },
   "files": ["index.d.ts"]
