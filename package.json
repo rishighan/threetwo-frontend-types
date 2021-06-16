@@ -1,5 +1,5 @@
 {
-  "name": "@rishighan/threetwo-ui-typings",
+  "name": "threetwo-ui-typings",
   "version": "1.0.0",
   "description": "Typings for the ThreeTwo! frontend",
   "main": "index.js",
