@@ -48,6 +48,7 @@ export interface IExtractedComicBookCoverFile {
   name: string;
   path: string;
   fileSize: number;
+  containedIn: string;
 }
 
 export interface IExtractComicBookCoverErrorResponse {
