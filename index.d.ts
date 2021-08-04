@@ -48,11 +48,24 @@ export interface IExtractedComicBookCoverFile {
   name: string;
   path: string;
   fileSize: number;
+  extension: string;
   containedIn: string;
+  calibreMetadata: {
+    coverWriteResult: string;
+  }
 }
 
 export interface IExtractComicBookCoverErrorResponse {
   message: string;
   errorCode: string;
   data: string;
+}
+
+export interface ISharpResizedImageStats {
+  format: string;
+  width: number;
+  height: number;
+  channels: number;
+  premultiplied: boolean;
+  size: number;
 }
