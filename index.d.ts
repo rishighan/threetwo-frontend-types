@@ -22,6 +22,7 @@ export interface IComicVineSearchMatch {
 export interface IFolderData {
   name: string;
   extension: string;
+  fileSize: number;
   containedIn: string;
   isFile: boolean;
   isLink: boolean;
