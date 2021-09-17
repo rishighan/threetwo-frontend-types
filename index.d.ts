@@ -4,7 +4,6 @@ export interface IFolderResponse {
 
 export interface IExtractionOptions {
   extractTarget: string;
-  sourceFolder: string;
   targetExtractionFolder: string;
   paginationOptions: IPaginationOptions;
   extractionMode: string;
