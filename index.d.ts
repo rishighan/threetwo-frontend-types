@@ -51,9 +51,12 @@ export interface IExtractedComicBookCoverFile {
   fileSize: number;
   extension: string;
   containedIn: string;
+  cover: {
+    filePath: string,
+    stats: object,
+  },
   calibreMetadata: {
     coverWriteResult: string;
-    coverFilePath: string;
   }
 }
 
