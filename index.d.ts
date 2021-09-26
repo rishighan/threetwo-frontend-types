@@ -20,6 +20,7 @@ export interface IComicVineSearchMatch {
 }
 export interface IFolderData {
   name: string;
+  path: string;
   extension: string;
   fileSize: number;
   containedIn: string;
@@ -52,6 +53,7 @@ export interface IExtractedComicBookCoverFile {
   containedIn: string;
   calibreMetadata: {
     coverWriteResult: string;
+    coverFilePath: string;
   }
 }
 
