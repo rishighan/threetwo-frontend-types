@@ -51,6 +51,7 @@ export interface IExtractedComicBookCoverFile {
   fileSize: number;
   extension: string;
   containedIn: string;
+  pageCount: number;
   cover: {
     filePath: string,
     stats: object,
