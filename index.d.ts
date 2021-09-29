@@ -5,7 +5,6 @@ export interface IFolderResponse {
 export interface IExtractionOptions {
   extractTarget: string;
   targetExtractionFolder: string;
-  paginationOptions: IPaginationOptions;
   extractionMode: string;
 }
 
