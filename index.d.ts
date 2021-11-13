@@ -51,12 +51,11 @@ export interface IExtractedComicBookCoverFile {
   extension: string;
   containedIn: string;
   cover: {
-    filePath: string,
-    stats: object,
-  },
+    filePath: string;
+  };
   calibreMetadata: {
     coverWriteResult: string;
-  }
+  };
 }
 
 export interface IExtractComicBookCoverErrorResponse {
@@ -73,7 +72,6 @@ export interface ISharpResizedImageStats {
   premultiplied: boolean;
   size: number;
 }
-
 
 // AirDCPP search API types
 
