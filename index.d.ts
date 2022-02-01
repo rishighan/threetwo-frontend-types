@@ -19,7 +19,7 @@ export interface IComicVineSearchMatch {
 }
 export interface IFolderData {
   name: string;
-  path: string;
+  filePath: string;
   extension: string;
   fileSize: number;
   containedIn: string;
