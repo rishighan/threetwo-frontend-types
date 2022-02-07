@@ -46,7 +46,7 @@ export interface IComicBookCoverMetadata {
 
 export interface IExtractedComicBookCoverFile {
   name: string;
-  path: string;
+  filePath: string;
   fileSize: number;
   extension: string;
   containedIn: string;
